@@ -1,0 +1,6 @@
+{
+    "cloudcode.duetAI.inlineSuggestions.enableAuto": false,
+    "python.analysis.extraPaths": [
+        "./project/tasks"
+    ]
+}
