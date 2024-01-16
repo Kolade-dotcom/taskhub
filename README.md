@@ -45,10 +45,10 @@ Follow these steps to set up TaskHub on your local machine:
 ### Backend Setup (Django Rest Framework)
 
 1. Navigate to the `project` directory.
-2. Create a virtual environment: `python -m venv venv`.
+2. Create a virtual environment: `python -m venv env`.
 3. Activate the virtual environment:
-    - On Windows: `venv\Scripts\activate`
-    - On macOS/Linux: `source venv/bin/activate`
+    - On Windows: `env\Scripts\activate`
+    - On macOS/Linux: `source env/bin/activate`
 4. Install dependencies: `pip install -r requirements.txt`.
 5. Run migrations: `python manage.py migrate`.
 6. Start the Django development server: `python manage.py runserver`.
