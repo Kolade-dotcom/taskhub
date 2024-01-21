@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import { Edit, Delete } from "@mui/icons-material";
 import { BrowserRouter as Router, Link } from "react-router-dom";
-import useRequestResource from "src/hooks/useResponseRequest";
+import useRequestResource from "../../hooks/useResponseRequest";
 
 function Categories() {
   // const results = [
