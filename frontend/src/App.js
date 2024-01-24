@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import CssBaseline from "@mui/material/CssBaseline";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
-import Categories from "src/pages/Categories/Categories";
+import Categories from "./pages/Categories/Categories";
 
 export default function App() {
   return (
